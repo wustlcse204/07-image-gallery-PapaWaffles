@@ -21,10 +21,6 @@
     z-index: 20;
 }
 
-#dummy {
-    display: none;
-}
-
 .oink {
     display: flex;
     justify-content: center;

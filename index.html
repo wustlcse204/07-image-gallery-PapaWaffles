@@ -31,7 +31,7 @@
 
                 <div id = "bigBox">
 
-                    <img class="idk" id="dummy" src="https://www.kidsmathgamesonline.com/images/pictures/shapes/square.jpg" alt="Dummy">
+                    <img class="idk" id="dummy" src="https://www.kidsmathgamesonline.com/images/pictures/shapes/square.jpg" alt="Dum">
     
                 </div>        
     
@@ -52,7 +52,7 @@
                     <img class="hick" id="river"
                         src="https://www.treehugger.com/thmb/tPRSl32T41gN2ePoA4yNhPWfB00=/667x667/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2017__04__Ban-Gioc-Detian-Falls-Greenery-Jungle-Forest-9391cfc25be640fe8609f94d92c7a3c8.jpg"
                         onmouseover="save(0)"
-                        alt="Hickory Creek">
+                        alt="waterfall">
 
                 </div>
 
@@ -65,7 +65,7 @@
                     <img class="hick"
                         src="https://i.pinimg.com/736x/01/b6/a4/01b6a478b10cf28e30152148f1906331.jpg"
                         onmouseover="save(1)"
-                        alt="Hickory Creek">
+                        alt="sakura">
 
                 </div>
 
@@ -79,7 +79,7 @@
                     <img class="hick"
                         src="https://i.guim.co.uk/img/media/6088d89032f8673c3473567a91157080840a7bb8/413_955_2808_1685/master/2808.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=412cc526a799b2d3fff991129cb8f030"
                         onmouseover="save(2)"
-                        alt="Hickory Creek">
+                        alt="mountain">
 
                 </div>
 
@@ -89,7 +89,7 @@
 
         
 
-        <div class="row one">
+        <div class="row two">
 
             <div class="col-sm-4">
 
@@ -98,7 +98,7 @@
                     <img class="hick"
                         src="https://images.8tracks.com/cover/i/013/230/144/Portale-8445.jpg?rect=0,150,600,600&q=98&fm=jpg&fit=max"
                         onmouseover="save(3)"
-                        alt="Hickory Creek">
+                        alt="mythLady">
 
                 </div>
 
@@ -111,7 +111,7 @@
                     <img class="hick"
                         src="https://cdn.shopify.com/s/files/1/0977/2234/files/Yggdrasil_Norse_Tree_of_Life_1024x1024.jpg?v=1582465863"
                         onmouseover="save(4)"
-                        alt="Hickory Creek">
+                        alt="worldTree">
 
                 </div>
 
@@ -125,7 +125,7 @@
                     <img class="hick"
                         src="https://i.pinimg.com/736x/ab/59/04/ab590484e164b2baa36fe46d3988b00c.jpg"
                         onmouseover="save(5)"
-                        alt="Hickory Creek">
+                        alt="Atlas">
 
                 </div>
 
@@ -135,7 +135,7 @@
 
 
 
-        <div class="row one">
+        <div class="row three">
 
             <div class="col-sm-4">
 
@@ -144,7 +144,7 @@
                     <img class="hick"
                         src="https://www.uws.ac.uk/media/3530/london-life-uws-1.jpg?center=0.33333333333333331,0.49295774647887325&mode=crop&width=650&height=650&rnd=131747494680000000&quality=80"
                         onmouseover="save(6)"
-                        alt="Hickory Creek">
+                        alt="London">
 
                 </div>
 
@@ -157,7 +157,7 @@
                     <img class="hick"
                         src="https://www.gavelintl.com/wp-content/uploads/2019/05/tokyo-japan.jpg"
                         onmouseover="save(7)"
-                        alt="Hickory Creek">
+                        alt="Tokyo">
 
                 </div>
 
@@ -171,7 +171,7 @@
                     <img class="hick"
                         src="https://media.cntraveler.com/photos/59e7addbcae8da16e6cd4af4/1:1/w_3458,h_3458,c_limit/Amsterdam_GettyImages-541441577.jpg"
                         onmouseover="save(8)"
-                        alt="Hickory Creek">
+                        alt="Amsterdam">
 
                 </div>
 
@@ -179,7 +179,7 @@
 
         </div>
 
-        <div class="row one">
+        <div class="row four">
 
             <div class="col-sm-4">
 
@@ -188,7 +188,7 @@
                     <img class="hick"
                         src="https://funlava.com/wp-content/uploads/2013/03/8276453941_fc3f388ce7_b.jpg"
                         onmouseover="save(9)"
-                        alt="Hickory Creek">
+                        alt="birb">
 
                 </div>
 
@@ -201,7 +201,7 @@
                     <img class="hick"
                         src="https://www.treehugger.com/thmb/pIMNT6xOQOziMz5C9gZIv3S3Ue4=/1414x1414/smart/filters:no_upscale()/tiger-bandhavgarh-np-india-01-7452a370026f452b88d973bd0d0eec9b.jpg"
                         onmouseover="save(10)"
-                        alt="Hickory Creek">
+                        alt="tiger">
 
                 </div>
 
@@ -215,7 +215,7 @@
                     <img class="hick"
                         src="https://www.tripsavvy.com/thmb/Na549FD69FEiGh71tNMcAHNROo0=/2848x2848/smart/filters:no_upscale()/coral-reef-scenery-with-tropical-fish-674124092-4644053ac3e7498e8a5af04638a721c5.jpg"
                         onmouseover="save(11)"
-                        alt="Hickory Creek">
+                        alt="fishies">
 
                 </div>
 
@@ -235,15 +235,15 @@
     var previous = document.createElement("button");
 
     var picArray = document.getElementsByClassName("hick");
-    var divArray = document.getElementsByClassName("infoPic");
 
-    
+    var copy = document.getElementById("dummy");
+    copy.style.display = "none";
 
         function save(input) {
             integer = input;
         }
 
-        for (var i = 0; i < picArray.length; i++) {
+    for (var i = 0; i < picArray.length; i++) {
         picArray[i].addEventListener("click", function() { makeBig(integer); });
         picArray[i].addEventListener("mouseover", function() { hover(integer); });
         picArray[i].addEventListener("mouseout", function() { clear(integer); });
@@ -253,12 +253,11 @@
             
             var picture = picArray[index];
 
-            var copy = getElementById("dummy");
+            copy.src = picture.src;
+            copy.style.height = "80%";
+            copy.style.width = "80%";
+            copy.style.display = "block";
 
-            //copy.src = picture.src;
-            var derp = index;
-            alert(derp);
-           
             closeBar.innerHTML = "Close";
 
             next.innerHTML = "-->";
@@ -268,37 +267,27 @@
 
             closeBar.style.marginTop="8px";
             
-            picture.style.width="80%";
-            picture.style.height="80%";
             
             document.getElementById("bigBox").appendChild(previous);
 
             document.getElementById("close").appendChild(closeBar);
 
-            document.getElementById("bigBox").appendChild(picture);
+            document.getElementById("bigBox").appendChild(copy);
 
             document.getElementById("bigBox").appendChild(next);
            
-            
-
         }
+
 
         function makeSmall(index) {
             
             var picture = picArray[index];
-            var correctDiv = divArray[index];
-
-            picture.style.width="100%";
-            picture.style.height="100%";
-        
             
-            document.getElementById("bigBox").removeChild(picture);
+            document.getElementById("bigBox").removeChild(copy);
            
             document.getElementById("close").removeChild(closeBar);
             document.getElementById("bigBox").removeChild(next);
             document.getElementById("bigBox").removeChild(previous);
-
-            correctDiv.appendChild(picture);
 
         }
 
@@ -314,7 +303,35 @@
         
         }
 
+        function nextImage(num) {
+            if (num == 11) {
+                integer = 0;
+                makeSmall(integer);
+                makeBig(integer);
+            }
+            else {
+                integer = integer + 1;
+                makeSmall(integer);
+                makeBig(integer);
+            }
+        }
+
+        function prevImage(num) {
+            if (num == 0) {
+                integer = 11;
+                makeSmall(integer);
+                makeBig(integer);
+            }
+            else {
+                integer = integer - 1;
+                makeSmall(integer);
+                makeBig(integer);
+            }
+        }
+
         closeBar.addEventListener("click", function() { makeSmall(integer); });
+        previous.addEventListener("click", function() { prevImage(integer); });
+        next.addEventListener("click", function() { nextImage(integer); });
 
         
         
