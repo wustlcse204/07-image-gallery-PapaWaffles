@@ -2,18 +2,39 @@
     width:100%;
     height:100%;
 }
+.infoPic {
+    height: 323px;
+    width: 323px;
+}
 
 .row {
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #bigBox {
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: gray;
     position: fixed;
-    width: 80%;
-   
-    margin-left: 170px;
+    width: 60%;
     z-index: 20;
 }
+
+#dummy {
+    display: none;
+}
+
+.oink {
+    display: flex;
+    justify-content: center;
+}
+
+#close {
+    position: fixed;
+    z-index: 21;
+}
+
 
 .big {
     margin-top: 0px;
